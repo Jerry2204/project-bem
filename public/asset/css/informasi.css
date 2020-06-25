@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.informasi img{
+    transition: .5s;
+}
+
+.informasi img:hover{
+    transform: scale(1.1);
+}
+
+.jumbotron-header{
+    background-image: url(/asset/images/danau.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 630px;
+}
+
+
+.header-info span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.text1{
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+    background: black;
+}
+
+.text2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -70px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+/* Home */
+nav{
+    background: transparent;
+    transition: .6s;
+}
+
+.navbar-brand{
+    font-family: Viga;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bg-dark{
+    padding: 20px 10px;
+}
+
+.main_search{
+    width: 300px;
+    height: 40px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid;
+    font-size: 20px;
+}
+.main_search::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.fa-search{
+    font-size: 25px;
+    color: black;
+}
+.height-nav{
+    height: 80px;
+}
+.hr-comment{
+    height: 2px;
+    background-color: red;
+}
+
+body {
+background: #fff;
+font-size: 14px;
+color:#000;
+margin: 0;
+padding: 0;
+}
+
+p{
+    font-family: Poppins;
+    letter-spacing: 1px;
+    text-indent: 30px;
+}
+
+.wave{
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+.teks-info{
+    font-family: Poppins;
+    letter-spacing: 1px;
+}
+
+/* Single Post */
+
+.single-image{
+    box-shadow: 1px 1px 15px black;
+    border-radius: 5px;
+}
+
+/* All Information */
+
+.heading-wisata{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.heading-wisata::after{
+    content: "";
+    width: 10rem;
+    height: .8rem;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+.div-footer p{
+    text-indent: 0%;
+}
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .text1{
+        font-size: 60px;
+    }
+
+    .div-footer{
+        border-right: 0px solid black;
+    }
+}

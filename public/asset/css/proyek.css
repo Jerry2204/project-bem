@@ -1,0 +1,57 @@
+.gambar_info{
+    border-radius: 20px;
+}
+
+footer{
+    background-image: url('/asset/images/danau.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.text-copyright{
+    font-weight: bolder;
+    background-color: white;
+}
+
+.nav-item:hover{
+    border-bottom: none;
+}
+
+.divider{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.divider-footer{
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.link-wisata{
+    color: red;
+}
+
+.link-wisata:hover{
+    color: green;
+}
+
+.link-wisata:active{
+    color: yellow;
+}
+
+@media (min-width: 992px)
+{
+    .nav-item:hover{
+        border-bottom: 2px solid maroon;
+    }
+
+    .text-copyright{
+        background: none;
+    }
+}
